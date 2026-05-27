@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<palette>
+
+  <block tag="getUsersInformationByRobin" spec="Get users %0 [e:actor]" code="ByRobin.get~()" help="Gets user infromation from http:/\/ip-api.com/json" type="normal" color="charcoal" returns="text">
+        <fields>
+            <dropdown order="0">
+                <choices>
+                    <c text="City" code="City"></c>
+                    <c text="Country" code="Country"></c>
+                    <c text="CountryCode" code="CountryCode"></c>
+                    <c text="ISP" code="ISP"></c>
+                    <c text="Latitude" code="Latitude"></c>
+                    <c text="Longitude" code="Longitude"></c>
+                    <c text="Organisation" code="Organisation"></c>
+                    <c text="IpAdress" code="IpAdress"></c>
+                    <c text="Region" code="Region"></c>
+                    <c text="RegionName" code="RegionName"></c>
+                    <c text="ZipCode" code="ZipCode"></c>
+                    <c text="Continent" code="Continent"></c>
+                </choices>
+            </dropdown>
+        </fields>
+    </block>
+
+  <block tag="userIsInContinentByRobin" spec="User is in continent %0 [e:actor]" code="ByRobin.isInContinent(~)" help="returns true if user is in continent else false." type="normal" color="charcoal" returns="boolean">
+        <fields>
+            <dropdown order="0">
+                <choices>
+                    <c text="Africa" code="&quot;Africa&quot;"></c>
+                    <c text="Antarctica" code="&quot;Antarctica&quot;"></c>
+                    <c text="Asia" code="&quot;Asia&quot;"></c>
+                    <c text="Europe" code="&quot;Europe&quot;"></c>
+                    <c text="America" code="&quot;America&quot;"></c>
+                    <c text="Australia" code="&quot;Australia&quot;"></c>
+                </choices>
+            </dropdown>
+        </fields>
+    </block>
+
+    <block tag="userhasInternetConnectionByRobin" spec="User has internet connection [e:actor]" code="ByRobin.hasInternetConnection()" help="Check if user has an internet connection" type="normal" color="charcoal" returns="boolean">
+        <fields>
+        </fields>
+    </block>
+
+
+</palette>

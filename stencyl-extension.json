@@ -1,0 +1,19 @@
+{
+  "group": "com.polydes.byrobin",
+  "id": "ipapi",
+  "name": "IP Geolocation",
+  "description": "Get location data associated with user ip address",
+  "tags": ["geolocation"],
+  "type": "game",
+  "author": "Robin Schaafsma",
+  "website": "https://www.polydes.com/byrobingames/engine/ipapi",
+  "repository": "https://www.polydes.com/byrobingames",
+  "target": "stencyl-4.2.0",
+  "version": "0.3.0",
+
+  "icon": "icon.png",
+
+  "engine": {
+    "compatibility": "all"
+  }
+}
